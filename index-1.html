@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>Caractere</title>
+	<meta charset="utf-8">
+	<meta name = "format-detection" content = "telephone=no" />
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/touchTouch.css">
+
+	<script src="js/jquery.js"></script>
+	<script src="js/touchTouch.jquery.js"></script>
+	<script src="js/jquery-migrate-1.2.1.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/packery.pkgd.min.js"></script>
+	<!--[if (gt IE 9)|!(IE)]><!-->
+	<script src="js/jquery.mobile.customized.min.js"></script>
+	<script src="js/wow.js"></script>
+	<script>
+		$(document).ready(function () {
+			if ($('html').hasClass('desktop')) {
+				new WOW().init();
+			}s
+		});
+	</script>
+	<!--<![endif]-->
+	<!--[if lt IE 8]>
+	<div style=' clear: both; text-align:center; position: relative;'>
+	 <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+		 <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+	 </a>
+	</div>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/ie-8.css">
+	<![endif]-->
+	</head>
+<body class="index-1">
+<!--==============================header=================================-->
+<header id="header">
+	<div id="stuck_container">
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
+					<div class="social">
+						<a href="#"><span class="bd-ra fa fa-facebook"></span></a>
+						<a href="#"><span class="bd-ra fa fa-tumblr"></span></a>
+						<a href="#"><span class="bd-ra fa fa-google-plus"></span></a>
+					</div>
+					<h1><a href="index.html"><span>informatii caractere</span></a></h1>
+					<nav>
+						<ul class="sf-menu">
+							<li class="current"><a href="index.html">Acasa</a>
+								<ul>
+									<li><a href="https://wall.alphacoders.com/by_sub_category.php?id=198866">Wallapers</a></li>
+									<li><a href="https://www.youtube.com/watch?v=8SCCqwpiuv8">Speedrun</a>
+										
+									</li>
+									<li><a href="http://www.nintendo.com/">Nintendo</a></li>
+								</ul>
+							</li>
+							<li><a href="index-1.html">Caractere</a></li>
+							<li><a href="index-2.html">Gameplay</a></li>
+							<li><a href="https://www.gamefaqs.com/boards/564226-the-legend-of-zelda-ocarina-of-time-master-quest/53040766">Blog</a></li>
+							<li><a href="index-4.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!--=======content================================-->
+<center><br><br><br><font size="5">Cauta informatii despre orice caracter din joc!</font></center>
+<section id="content">
+<br><br><br><br><center> <form name="cauta" action="cauta.php?pag=cauta" method="post">
+     <input type="text" name="cauta" value=""input-lg" name="nume" type="nume"placeholder="character" data-validate="validate(required, nume)" required="required">  <button type="submit" class="btn btn-success btn-lg">CAUTA!</button>  <br>
+	  
+	  </form></center>	
+	  <center><font size="2">(ex: Link, Zelda, Ganondorf, Agahnim, Dark Link, Twinrova, Demise, Ghirahim, Zant, Vaati, Yuga, <br> Majora, Eponia, Fi, Golden Godess,
+	  Great Deku Tree, Groose, Happy masks Salesman, Impa, Kaepora Gaebora, King Daphnes) </font></center>
+</section>
+
+<!--=======footer=================================-->
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="grid_12">
+				<div class="copyright">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	  
+</footer>
+<script>
+	$(function(){
+		$('#touch_gallery a').touchTouch();
+	});
+</script>
+
+</body>
+</html>
